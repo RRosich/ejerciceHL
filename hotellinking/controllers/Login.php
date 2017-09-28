@@ -41,7 +41,7 @@ function signUp(){
         }
         else
         {
-            header("Location:../index.php");
+            header("Location:../index.php?errorLogin=true"");
         }
     }
 }
