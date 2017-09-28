@@ -6,12 +6,12 @@ if(isset($_SESSION)){
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>Login con singleton y pdo</title>
+    <title>Login</title>
     <link href="content/login.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<div id="error_alert"> <h2>Ha habido un error en el login</h2></div>
+<div id="error_alert"> <h2>Ha habido un error</h2></div>
 <div class="content">
     <div class="caja_login">
         <div class="login_usuario">
